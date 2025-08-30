@@ -1,0 +1,27 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# macOS system files
+.DS_Store
+
+# VSCode settings
+.vscode/
+
+# Data files (ignore all except one sample dataset)
+data/*
+!data/Dataset_Study3.csv
+
+# Reports (ignore everything except final docs if needed)
+reports/*.tmp
+reports/*.bak
+
